@@ -1,4 +1,4 @@
-package com.application;
+package com.application.operatedb;
 
 /**
  * @author 张睿
@@ -6,10 +6,17 @@ package com.application;
  * load LevelDB中数据至spark
  **/
 
-import org.rocksdb.*;
+import org.rocksdb.Options;
+import org.rocksdb.RocksDB;
+import org.rocksdb.RocksDBException;
+import org.rocksdb.RocksIterator;
+
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class OperateRocksDb {
     static {
