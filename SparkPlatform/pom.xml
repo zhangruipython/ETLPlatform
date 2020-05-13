@@ -85,6 +85,23 @@
       <optional>true</optional>
     </dependency>
 
+    <dependency>
+      <groupId>com.github.haifengl</groupId>
+      <artifactId>smile-core</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.haifengl</groupId>
+      <artifactId>smile-io</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.12</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-library -->
     <!--    <dependency>-->
     <!--      <groupId>org.scala-lang</groupId>-->
