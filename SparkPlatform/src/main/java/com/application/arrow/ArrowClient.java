@@ -29,7 +29,6 @@ public class ArrowClient {
             System.out.println(recordBatch.getLength());
             System.out.println(recordBatch.getNodes());
         }
-
 }
 }
 
