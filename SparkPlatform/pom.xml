@@ -88,19 +88,6 @@
       <version>0.17.0</version>
     </dependency>
 
-
-    <!-- https://mvnrepository.com/artifact/org.iq80.leveldb/leveldb -->
-    <dependency>
-      <groupId>org.iq80.leveldb</groupId>
-      <artifactId>leveldb</artifactId>
-      <version>0.12</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.iq80.leveldb/leveldb-api -->
-    <dependency>
-      <groupId>org.iq80.leveldb</groupId>
-      <artifactId>leveldb-api</artifactId>
-      <version>0.12</version>
-    </dependency>
     <!-- https://mvnrepository.com/artifact/org.rocksdb/rocksdbjni -->
     <dependency>
       <groupId>org.rocksdb</groupId>
@@ -142,6 +129,16 @@
       <groupId>com.facebook.presto</groupId>
       <artifactId>presto-maven-plugin</artifactId>
       <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>3.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.70</version>
     </dependency>
   </dependencies>
 
