@@ -1,6 +1,6 @@
 package com.application.operateredis;
 
-/**
+/** 解析rocksdb中数据写入redis
  * @author 张睿
  * @create 2020-07-03 16:02
  **/
