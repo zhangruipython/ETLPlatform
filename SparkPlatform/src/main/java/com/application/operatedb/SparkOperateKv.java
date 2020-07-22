@@ -7,6 +7,7 @@ package com.application.operatedb;
  **/
 
 import com.alibaba.fastjson.JSONObject;
+import com.application.util.ValueDecode;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
@@ -15,7 +16,6 @@ import org.apache.spark.sql.*;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructField;
 import org.apache.spark.sql.types.StructType;
-import org.example.util.ValueDecode;
 import org.rocksdb.Options;
 import org.rocksdb.RocksDB;
 import org.rocksdb.RocksDBException;
@@ -159,7 +159,7 @@ public class SparkOperateKv {
 
     public static void main(String[] args) throws RocksDBException {
         if (args.length==3){
-            org.example.operatespark.SparkOperateKv sparkOperateKv = new org.example.operatespark.SparkOperateKv();
+           SparkOperateKv sparkOperateKv = new SparkOperateKv();
             long tim01 = System.currentTimeMillis();
 //            String sqlContent = "select * from table01 limit 10";
 //            String tableName = "table01";
